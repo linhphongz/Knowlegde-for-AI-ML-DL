@@ -1,5 +1,5 @@
 # Knowlegde-for-AI-ML-DL
 🥇 You need  equip yourself the following knowlegde : Caculus, LinearAlgelbra, Probility, Algorithm ...... \
-🥈 I hope you could learn sth on my wall
-🥉 Thank for your reading 💯
+🥈 I hope you could learn sth on my wall \
+🥉 Thank for your reading 💯\
  🔖Description of each part is in that file
