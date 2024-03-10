@@ -1,6 +1,7 @@
 Some terminology:
 -Overfitting : 
- +là một khái niệm trong thống kê và học máy, là một khái niệm trong thống kê và học máy, mô tả tình huống mà một mô hình hoạt động tốt trên dữ liệu huấn luyện nhưng kém trên dữ liệu mới hoặc chưa được quan sát. Điều này có nghĩa là mô hình đã học các mẫu và nhiễu cụ thể trong dữ liệu huấn luyện, nhưng không thể tổng quát hóa cho các tình huống mới. Overfitting có thể dẫn đến các dự đoán không chính xác hoặc đưa ra thông tin sai lệch và giảm tính hữu ích của mô hình.
++là một khái niệm trong thống kê và học máy, là một khái niệm trong thống kê và học máy, mô tả tình huống mà một mô hình hoạt động tốt trên dữ liệu huấn luyện nhưng kém trên dữ liệu mới hoặc chưa được quan sát. \
+Điều này có nghĩa là mô hình đã học các mẫu và nhiễu cụ thể trong dữ liệu huấn luyện, nhưng không thể tổng quát hóa cho các tình huống mới. Overfitting có thể dẫn đến các dự đoán không chính xác hoặc đưa ra thông tin sai lệch và giảm tính hữu ích của mô hình.
 +Một số cách phát hiện overfitting là : 
 Vẽ đồ thị học tập của mô hình, hiển thị lỗi huấn luyện và lỗi xác thực theo số lượng ví dụ huấn luyện hoặc số vòng lặp. Nếu lỗi huấn luyện thấp hơn rất nhiều so với lỗi xác thực và lỗi xác thực không giảm khi lỗi huấn luyện giảm, thì mô hình có khả năng bị overfitting.
 Sử dụng các kỹ thuật cross-validation, chia dữ liệu thành nhiều tập con và huấn luyện và kiểm tra mô hình trên các kết hợp khác nhau của các tập con này. Nếu mô hình có phương sai cao trong hiệu suất trên các tập con khác nhau, thì có khả năng mô hình bị overfitting.
